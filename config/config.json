@@ -1,0 +1,14 @@
+{
+  "development": {
+    "url": "postgresql://streaming_database_user:password@host:port/streaming_database",
+    "dialect": "postgres"
+  },
+  "test": {
+    "url": "postgresql://streaming_database_user:password@host:port/streaming_database",
+    "dialect": "postgres"
+  },
+  "production": {
+    "url": "postgresql://streaming_database_user:password@host:port/streaming_database",
+    "dialect": "postgres"
+  }
+}
